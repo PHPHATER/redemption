@@ -1,0 +1,82 @@
+.home--section2 {
+    background-color: black;
+}
+
+.home-sect2-content {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.home-sect2-top-part {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.home-sect2-top-part h1,
+.home-sect2-top-part h3 {
+    width: 50%;
+    text-align: center;
+}
+
+.home-sect2-next-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-sect2-next-part-one h1,
+.home-sect2-next-part-two h1,
+.home-sect2-next-part-three h1 {
+    font-size: 53px;
+}
+
+.home-sect2-next-part-one p,
+.home-sect2-next-part-two p,
+.home-sect2-next-part-three p {
+    font-size: 25px;
+}
+
+.home-sect2-next-part-one button,
+.home-sect2-next-part-two button,
+.home-sect2-next-part-three button {
+    background-color: transparent;
+    font-size: 18.5px;
+    font-family: "Shapiro", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.015;
+    width: 90%;
+    margin: 7px;
+    padding: 15px 0;
+}
+
+.home-sect2-next-part-one {
+    background-image: url("/wp-content/themes/redemption/resources/assets/images/home-sec2-img.png");
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-right: 50px;
+    padding: 50px;
+}
+
+.home-sect2-next-part-two {
+    background-image: url("/wp-content/themes/redemption/resources/assets/images/home-sec2-img.png");
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-right: 50px;
+    padding: 50px;
+}
+
+.home-sect2-next-part-three {
+    background-image: url("/wp-content/themes/redemption/resources/assets/images/home-sec2-img.png");
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+}
+
