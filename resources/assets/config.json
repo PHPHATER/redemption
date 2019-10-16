@@ -1,0 +1,24 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/main.scss"
+    ],
+    "critical": [
+      "./styles/critical.scss"
+    ],
+    "customizer": [
+      "./scripts/customizer.js"
+    ]
+  },
+  "publicPath": "/wp-content/themes/roots9",
+  "devUrl": "http://localhost/buyge/",
+  "proxyUrl": "http://localhost:3000/buyge/",
+  "cacheBusting": "[name]_[hash:8]",
+  "watch": [
+    "app/**/*.php",
+    "config/**/*.php",
+    "resources/views/**/*.php"
+  ],
+  "headers": { "Access-Control-Allow-Origin": "*" }
+}

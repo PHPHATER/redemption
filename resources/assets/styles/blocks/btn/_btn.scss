@@ -1,0 +1,19 @@
+.btn {
+    &--photo {
+        border: 1px solid #bac7d7;
+        color: $simple-blue;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    &.write_single_review {
+        padding: 10px 20px;
+    }
+
+    &-block + &-block {
+        margin-top: 15px;
+    }
+}

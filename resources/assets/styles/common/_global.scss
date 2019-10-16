@@ -1,0 +1,8 @@
+a {
+    @extend %transition-global;
+}
+
+// щоб не пригав контент візуально
+.site-content {
+    opacity: 1;
+}

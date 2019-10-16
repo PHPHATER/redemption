@@ -1,0 +1,90 @@
+html,
+body,
+.mm-page,
+.site-wrapper {
+    // Full page height fix
+    height: 100%;
+    position: relative;
+}
+
+.wrap {
+    padding-top: $section-spacer;
+    padding-bottom: $section-spacer;
+}
+
+// Повна ширина для шаблона template-landing
+.template-landing {
+    .wrap {
+        max-width: 100% !important;
+        padding: 0;
+    }
+}
+
+// Container
+.container {
+    @include media-breakpoint-down(sm) {
+        padding-right: $grid-gutter-width !important;
+        padding-left: $grid-gutter-width !important;
+    }
+}
+
+// Grid system
+.main {
+    @include make-col-ready();
+
+    @include media-breakpoint-up(sm) {
+        @include make-col($main-sm-columns);
+
+        padding-right: 4*$spacer;
+
+        .sidebar-primary & {
+            @include make-col($main-sm-columns - $sidebar-sm-columns);
+        }
+    }
+
+    // Cторінці блога
+    .single-post & {
+        @include media-breakpoint-up(sm) {
+            padding-right: 6*$spacer;
+        }
+    }
+}
+
+.sidebar {
+    @include make-col-ready();
+
+    @include media-breakpoint-up(sm) {
+        @include make-col($sidebar-sm-columns);
+    }
+}
+
+.site-content {
+    // щоб не пригав контент візуально
+    opacity: 0;
+
+    @extend %transition-global;
+    // манша ширина контенту поста
+    .single-post & {
+        // max-width: 900px;
+        // width: 100%;
+        // margin: 0 auto;
+    }
+}
+
+// всунув сюди з поста бо пригає при загрузці
+.entry-content {
+    p:first-of-type {
+        font-size: $lead-font-size;
+        font-weight: $lead-font-weight;
+        margin-bottom: $spacer * 2;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: $headings-margin-bottom;
+    }
+}

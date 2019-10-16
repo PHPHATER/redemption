@@ -1,0 +1,38 @@
+.woocommerce-breadcrumb {
+    background: none;
+    padding: 0;
+    color: inherit;
+    margin-bottom: 2rem;
+    opacity: 0.6;
+    font-size: $font-size-sm;
+
+    a {
+    	color: inherit;
+
+    	&:hover {
+    		color: inherit;
+    	}
+
+    	&:first-of-type {
+    		position: relative;
+		    padding-left: 25px;
+
+    		&::before {
+    			content: "";
+    			width: 15px;
+    			height: 15px;
+    			background-image: url(../images/home_white.svg);
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			    position: absolute;
+			    margin-left: -25px;
+			    top: 0;
+    		}
+    	}
+    }
+
+    &__icon {
+	    margin-right: 10px;
+    	margin-top: -4px;
+    }
+}

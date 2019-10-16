@@ -1,0 +1,10 @@
+.button,
+#review_form #submit {
+    @extend .btn;
+    @extend .btn-light;
+}
+
+.add_to_cart_button,
+.single_add_to_cart_button {
+    @extend .btn-primary;
+}

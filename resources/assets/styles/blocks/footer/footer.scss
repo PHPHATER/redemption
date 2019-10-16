@@ -1,0 +1,102 @@
+.site-footer {
+    padding: $section-spacer / 1.25 0;
+
+    .widget {
+
+        // .widget_nav
+
+		&_nav {
+        }
+
+        // .widget__title
+
+		&__title {
+            font-size: $font-size-base;
+        }
+    }
+
+    .menu {
+
+		// .menu__item
+
+		&__item {
+		}
+
+		// .menu__link
+
+		&__link {
+            // .nav-link fix
+            padding-left: 0;
+
+            &::before {
+                content: "–";
+                margin-right: 5px;
+            }
+		}
+    }
+
+    &__logo {
+        margin-bottom: 30px;
+    }
+}
+
+.site-copy {
+    background: #1f2a39;
+    // .site-copy__col
+
+    // Краще не переписувати бутсреп колонки - а задавити розміри через них
+    .site-copy__col {
+        @include media-breakpoint-down(sm) {
+	    	flex: 0 0 100%;
+	    	max-width: 100%;
+    		padding-right: 0;
+    	}
+    }
+
+    // .site-copy__copyright-col
+
+    .site-copy__copyright-col {
+        flex: 0 0 calc(100% - 300px);
+	    max-width: calc(100% - 300px);
+        padding-right: 75px;
+    }
+
+    // .site-copy__socials-col
+
+    .site-copy__socials-col {
+        flex: 0 0 300px;
+		max-width: 300px;
+	    width: 300px;
+        max-height: 70px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.site-footer,
+.site-copy {
+    background: $footer-bg;
+    color: $footer-color;
+    text-align: center;
+
+    @include media-breakpoint-up(sm) {
+        text-align: left;
+    }
+
+    a,
+    span {
+        color: inherit;
+        opacity: 0.8;
+    }
+
+    a {
+        &:hover {
+            color: inherit;
+            opacity: 1;
+        }
+    }
+
+    .home & {
+        display: none !important;
+    }
+}

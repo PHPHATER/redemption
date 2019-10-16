@@ -1,0 +1,72 @@
+.menu {
+
+}
+
+// .menu--copyright block
+.menu--copyright {
+    margin: 15px auto 0;
+
+    @include media-breakpoint-down(md) {
+        flex-direction: column-reverse;
+        margin-bottom: 15px;
+    }
+
+    .menu__link {
+        margin-bottom: 5px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nav-item {
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            text-align: left;
+        }
+    }
+}
+
+// .menu--socials block
+.menu--socials {
+
+    // .menu--socials .menu__link
+    .menu__link {
+        width: 60px;
+        height: 70px;
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-left: 0;
+        padding-right: 0;
+
+        &:hover {
+            background-color: $simple-blue;
+            cursor: pointer;
+        }
+
+        // .menu--socials__link--facebook
+        &--facebook {
+            background-image: url("../images/facebook.svg");
+        }
+
+        // .menu--socials__link--twitter
+        &--twitter {
+            background-image: url("../images/twitter.svg");
+        }
+
+        // .menu--socials__link--youtube
+        &--youtube {
+            background-image: url("../images/youtube.svg");
+        }
+
+        // .menu--socials__link--linkedin
+        &--linkedin {
+            background-image: url("../images/linkedin.svg");
+        }
+
+        // .menu--socials__link--instagram
+        &--instagram {
+            background-image: url("../images/instagram.svg");
+        }
+    }
+}

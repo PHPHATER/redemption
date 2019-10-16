@@ -1,0 +1,99 @@
+.vcard {
+    margin-bottom: 2rem;
+}
+
+.avatar {
+    border-radius: 100%;
+    max-width: 48px;
+}
+
+.menu__item--avatar {
+    padding-right: $spacer;
+}
+
+.menu__item--author {
+    .fn {
+        display: block;
+        text-transform: capitalize;
+        color: $body-color;
+        font-weight: 600;
+    }
+
+    .updated {
+        opacity: 0.7;
+        font-size: $font-size-sm;
+    }
+}
+
+// Срака в коментаріях, не хочу переписувати walker для цього, хай буде так
+.comments {
+    margin-top: 7* $spacer;
+
+    h3,
+    h4 {
+        opacity: 0.7;
+    }
+
+    .comment-list {
+        padding-left: 0;
+        margin-bottom: 4* $spacer;
+    }
+
+    .comment {
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        padding: 2* $spacer;
+    }
+
+    .says {
+        display: none;
+    }
+
+    .comment-meta {
+        margin-bottom: 2* $spacer;
+    }
+
+    .avatar {
+        margin-right: $spacer;
+    }
+
+    .fn {
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .comment-metadata {
+        margin-top: -50px;
+        margin-left: 53px;
+
+        a {
+            opacity: 0.7;
+            font-size: 0.7rem;
+            color: $body-color;
+        }
+    }
+}
+
+.hentry {
+    margin-bottom: $spacer;
+
+    .entry-title {
+        font-size: $h5-font-size;
+        margin-bottom: $spacer;
+
+        a {
+            color: $body-color;
+        }
+    }
+
+    .wp-post-image {
+        margin-bottom: 1.62rem;
+    }
+
+    .menu__item--avatar {
+        display: none;
+    }
+
+    .fn {
+        display: inline;
+    }
+}
