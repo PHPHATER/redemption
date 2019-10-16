@@ -207,7 +207,6 @@ function prosvit_carbon_fields_register_fields()
                     </div>
                 </div>
 
-
             </section>
             <?php
         });
