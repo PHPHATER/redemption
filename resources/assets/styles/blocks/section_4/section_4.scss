@@ -1,0 +1,28 @@
+.instructor_photo {
+    width: 1730px;
+    margin: 30px 0 0 0;
+    height: 440px;
+}
+
+.really_about {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.zoom_img:hover {
+    transform: scale(1.2);
+}
+
+.btn_all {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+
+.view_all {
+    color: #02b1f0;
+    font-size: 45px;
+    font-weight: 700;
+    margin-right: 250px;
+}

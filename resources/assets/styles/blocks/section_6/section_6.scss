@@ -1,0 +1,58 @@
+.line {
+    border: 3px solid;
+    margin: 30px 0;
+}
+
+.follow_us h1 {
+    color: #f00;
+    font-size: 45px;
+    font-weight: 900;
+    margin: auto;
+}
+
+.follow_us h5 {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.spotligth h1 {
+    color: #02b1f0;
+    font-size: 45px;
+    font-weight: 900;
+    margin: auto;
+}
+
+.spotligth h5 {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.wrapper_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.conect {
+    height: 40px;
+}
+
+.line_before_content {
+    border: 2px solid;
+}
+
+.text_before_content h1 {
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.conect h2 {
+    color: #02b1f0;
+    font-weight: 700;
+}
+
+.red_line {
+    border: 2px solid #f00;
+    width: 70%;
+}

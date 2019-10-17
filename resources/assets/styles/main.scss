@@ -4,8 +4,8 @@
 *
 **/
 
-        @import "common/variables";
-        @import "common/mixins";
+@import "common/variables";
+@import "common/mixins";
 
 /**
 *
@@ -13,8 +13,8 @@
 *
 **/
 
-        /** Import everything from autoload */
-        @import "./autoload/**/*";
+/** Import everything from autoload */
+@import "./autoload/**/*";
 
 /**
 *
@@ -22,12 +22,12 @@
 *
 **/
 
-        @import "common/global";
-        @import "common/fonts";
-        @import "layouts/sidebar";
-        @import "layouts/footer";
-        @import "components/posts";
-        @import "layouts/tinymce";
+@import "common/global";
+@import "common/fonts";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "components/posts";
+@import "layouts/tinymce";
 
 /**
 *
@@ -35,7 +35,10 @@
 *
 **/
 
-        @import 'blocks/section/section';
-        @import 'blocks/menu/menu';
-        @import 'blocks/footer/footer';
-        @import 'blocks/icons/icons';
+@import "blocks/section/section";
+@import "blocks/menu/menu";
+@import "blocks/footer/footer";
+@import "blocks/icons/icons";
+@import "blocks/section_4/section_4";
+@import "blocks/section_5/section_5";
+@import "blocks/section_6/section_6";

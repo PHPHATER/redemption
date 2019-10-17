@@ -11,9 +11,9 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/wp-content/themes/roots9",
-  "devUrl": "http://localhost/buyge/",
-  "proxyUrl": "http://localhost:3000/buyge/",
+  "publicPath": "/wp-content/themes/redemption",
+  "devUrl": "http://localhost",
+  "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
     "app/**/*.php",
