@@ -106,7 +106,7 @@
   },
   "dependencies": {
     "bootstrap": "v4.0.0",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "jquery.mmenu": "^7.3.3",
     "owl.carousel": "^2.3.4",
     "popper.js": "^1.12.9"
